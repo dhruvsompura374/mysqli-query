@@ -1,0 +1,2 @@
+- create view with distinct date
+SELECT *,COUNT(*), COUNT(DISTINCT DATE_FORMAT(datetime, '%Y-%c-%d')) FROM wp_neca_advertisement_reports
